@@ -1,0 +1,73 @@
+## .NET build artifacts
+bin/
+obj/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## ASP.NET temporary files
+**/Generated_Code/
+
+## Rider / VS Code / VS for Mac
+.idea/
+.vscode/
+.vs/
+*.csproj.user
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+
+## NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Environment files
+*.env
+
+## Others
+*.db
+*.sqlite
+*.pdb
+*.cache
+*.tmp
+
+## DotCover
+.idea/.dotCover
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## Visual Studio Code
+.history/
+.vscode/
+
+## Docker
+**/.dockerignore
+**/Dockerfile*
+
+## Logs
+*.log
+logs/
